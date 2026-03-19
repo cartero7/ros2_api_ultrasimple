@@ -1,10 +1,22 @@
-.venv/
+# ROS2
+build/
+install/
+log/
+
+# Python
 __pycache__/
 *.pyc
 *.pyo
+*.pyd
 
-ros2_ws/build/
-ros2_ws/install/
-ros2_ws/log/
+# virtualenv
+venv/
+.venv/
 
-*:Zone.Identifier
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
